@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Cat printer</title>
+</head>
+<h1>Cat printer</h1>
+<form action="/print" method="POST">
+    <input name="text" value="hello">
+    
+    <select name="size">
+        <option value="20">Tiny</option>
+        <option value="30" selected>Small</option>
+        <option value="40">Large</option>
+        <option value="50">Extra large</option>
+        <option value="60">Monstrous</option>
+    </select>
+
+    <select name="font">
+        <option value="Cat paw">Cat</option>
+        <option value="Cute meow">Cute meow</option>
+    </select>
+    <input type="submit" value="Print">
+</form>
+</html>
